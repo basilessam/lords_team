@@ -29,137 +29,55 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.SidePanel = new System.Windows.Forms.Panel();
-            this.button14 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.separatorControl1 = new DevExpress.XtraEditors.SeparatorControl();
             this.panel4 = new System.Windows.Forms.Panel();
             this.separatorControl2 = new DevExpress.XtraEditors.SeparatorControl();
             this.label4 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.button9 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.p = new FastFood.Home();
+            this.customers1 = new FastFood.Customers();
+            this.driver_Payment1 = new FastFood.payment();
+            this.take_Away1 = new FastFood.drinks();
+            this.delivery1 = new FastFood.appetizers();
+            this.collections1 = new FastFood.dessert();
+            this.eat_In1 = new FastFood.pizza();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.separatorControl1 = new DevExpress.XtraEditors.SeparatorControl();
+            this.label3 = new System.Windows.Forms.Label();
+            this.SidePanel = new System.Windows.Forms.Panel();
             this.customers = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.driverpayment = new System.Windows.Forms.Button();
             this.takeaway = new System.Windows.Forms.Button();
             this.Delivery = new System.Windows.Forms.Button();
             this.collections = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
             this.pizza = new System.Windows.Forms.Button();
             this.Home = new System.Windows.Forms.Button();
-            this.p = new FastFood.Home();
-            this.customers1 = new FastFood.Customers();
-            this.driver_Payment1 = new FastFood.Driver_Payment();
-            this.take_Away1 = new FastFood.Take_Away();
-            this.delivery1 = new FastFood.Delivery();
-            this.collections1 = new FastFood.Collections();
-            this.eat_In1 = new FastFood.Eat_In();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.separatorControl1)).BeginInit();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.separatorControl2)).BeginInit();
             this.panel3.SuspendLayout();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.separatorControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(84, 122);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(93, 20);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Restourents";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(77, 98);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(112, 23);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Fast Foods";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // SidePanel
-            // 
-            this.SidePanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
-            this.SidePanel.Location = new System.Drawing.Point(1, 169);
-            this.SidePanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.SidePanel.Name = "SidePanel";
-            this.SidePanel.Size = new System.Drawing.Size(13, 66);
-            this.SidePanel.TabIndex = 4;
-            // 
-            // button14
-            // 
-            this.button14.FlatAppearance.BorderSize = 0;
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button14.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button14.ForeColor = System.Drawing.Color.White;
-            this.button14.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button14.Location = new System.Drawing.Point(4, 672);
-            this.button14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(48, 42);
-            this.button14.TabIndex = 4;
-            this.button14.Text = "?";
-            this.button14.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button14.UseVisualStyleBackColor = true;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(279, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Location = new System.Drawing.Point(287, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1089, 12);
+            this.panel2.Size = new System.Drawing.Size(1081, 12);
             this.panel2.TabIndex = 6;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
-            this.panel1.Controls.Add(this.separatorControl1);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.SidePanel);
-            this.panel1.Controls.Add(this.customers);
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.driverpayment);
-            this.panel1.Controls.Add(this.takeaway);
-            this.panel1.Controls.Add(this.Delivery);
-            this.panel1.Controls.Add(this.collections);
-            this.panel1.Controls.Add(this.button14);
-            this.panel1.Controls.Add(this.pizza);
-            this.panel1.Controls.Add(this.Home);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(279, 718);
-            this.panel1.TabIndex = 5;
-            // 
-            // separatorControl1
-            // 
-            this.separatorControl1.Location = new System.Drawing.Point(0, 145);
-            this.separatorControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.separatorControl1.Name = "separatorControl1";
-            this.separatorControl1.Padding = new System.Windows.Forms.Padding(12, 11, 12, 11);
-            this.separatorControl1.Size = new System.Drawing.Size(279, 22);
-            this.separatorControl1.TabIndex = 16;
             // 
             // panel4
             // 
@@ -172,20 +90,20 @@
             this.panel4.Controls.Add(this.button12);
             this.panel4.Controls.Add(this.button11);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel4.Location = new System.Drawing.Point(279, 12);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel4.Location = new System.Drawing.Point(287, 12);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1089, 62);
+            this.panel4.Size = new System.Drawing.Size(1081, 62);
             this.panel4.TabIndex = 15;
             // 
             // separatorControl2
             // 
             this.separatorControl2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.separatorControl2.Location = new System.Drawing.Point(0, 40);
-            this.separatorControl2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.separatorControl2.Margin = new System.Windows.Forms.Padding(4);
             this.separatorControl2.Name = "separatorControl2";
             this.separatorControl2.Padding = new System.Windows.Forms.Padding(12, 11, 12, 11);
-            this.separatorControl2.Size = new System.Drawing.Size(1089, 22);
+            this.separatorControl2.Size = new System.Drawing.Size(1081, 22);
             this.separatorControl2.TabIndex = 17;
             // 
             // label4
@@ -198,22 +116,6 @@
             this.label4.Size = new System.Drawing.Size(179, 33);
             this.label4.TabIndex = 8;
             this.label4.Text = "By Lords Team";
-            // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.p);
-            this.panel3.Controls.Add(this.customers1);
-            this.panel3.Controls.Add(this.driver_Payment1);
-            this.panel3.Controls.Add(this.take_Away1);
-            this.panel3.Controls.Add(this.delivery1);
-            this.panel3.Controls.Add(this.collections1);
-            this.panel3.Controls.Add(this.eat_In1);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(279, 74);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1089, 644);
-            this.panel3.TabIndex = 16;
             // 
             // button9
             // 
@@ -313,6 +215,155 @@
             this.button11.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button11.UseVisualStyleBackColor = true;
             // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.p);
+            this.panel3.Controls.Add(this.customers1);
+            this.panel3.Controls.Add(this.driver_Payment1);
+            this.panel3.Controls.Add(this.take_Away1);
+            this.panel3.Controls.Add(this.delivery1);
+            this.panel3.Controls.Add(this.collections1);
+            this.panel3.Controls.Add(this.eat_In1);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel3.Location = new System.Drawing.Point(287, 74);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1081, 644);
+            this.panel3.TabIndex = 16;
+            // 
+            // p
+            // 
+            this.p.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("p.BackgroundImage")));
+            this.p.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.p.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.p.Location = new System.Drawing.Point(0, 0);
+            this.p.Margin = new System.Windows.Forms.Padding(5);
+            this.p.Name = "p";
+            this.p.Size = new System.Drawing.Size(1081, 644);
+            this.p.TabIndex = 0;
+            this.p.Load += new System.EventHandler(this.home1_Load);
+            // 
+            // customers1
+            // 
+            this.customers1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("customers1.BackgroundImage")));
+            this.customers1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.customers1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.customers1.Location = new System.Drawing.Point(0, 0);
+            this.customers1.Margin = new System.Windows.Forms.Padding(5);
+            this.customers1.Name = "customers1";
+            this.customers1.Size = new System.Drawing.Size(1081, 644);
+            this.customers1.TabIndex = 6;
+            // 
+            // driver_Payment1
+            // 
+            this.driver_Payment1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("driver_Payment1.BackgroundImage")));
+            this.driver_Payment1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.driver_Payment1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.driver_Payment1.Location = new System.Drawing.Point(0, 0);
+            this.driver_Payment1.Margin = new System.Windows.Forms.Padding(5);
+            this.driver_Payment1.Name = "driver_Payment1";
+            this.driver_Payment1.Size = new System.Drawing.Size(1081, 644);
+            this.driver_Payment1.TabIndex = 5;
+            // 
+            // take_Away1
+            // 
+            this.take_Away1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("take_Away1.BackgroundImage")));
+            this.take_Away1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.take_Away1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.take_Away1.Location = new System.Drawing.Point(0, 0);
+            this.take_Away1.Margin = new System.Windows.Forms.Padding(5);
+            this.take_Away1.Name = "take_Away1";
+            this.take_Away1.Size = new System.Drawing.Size(1081, 644);
+            this.take_Away1.TabIndex = 4;
+            // 
+            // delivery1
+            // 
+            this.delivery1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("delivery1.BackgroundImage")));
+            this.delivery1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.delivery1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.delivery1.Location = new System.Drawing.Point(0, 0);
+            this.delivery1.Margin = new System.Windows.Forms.Padding(5);
+            this.delivery1.Name = "delivery1";
+            this.delivery1.Size = new System.Drawing.Size(1081, 644);
+            this.delivery1.TabIndex = 3;
+            // 
+            // collections1
+            // 
+            this.collections1.BackColor = System.Drawing.Color.Transparent;
+            this.collections1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("collections1.BackgroundImage")));
+            this.collections1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.collections1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.collections1.Location = new System.Drawing.Point(0, 0);
+            this.collections1.Margin = new System.Windows.Forms.Padding(5);
+            this.collections1.Name = "collections1";
+            this.collections1.Size = new System.Drawing.Size(1081, 644);
+            this.collections1.TabIndex = 2;
+            // 
+            // eat_In1
+            // 
+            this.eat_In1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("eat_In1.BackgroundImage")));
+            this.eat_In1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.eat_In1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.eat_In1.Location = new System.Drawing.Point(0, 0);
+            this.eat_In1.Margin = new System.Windows.Forms.Padding(5);
+            this.eat_In1.Name = "eat_In1";
+            this.eat_In1.Size = new System.Drawing.Size(1081, 644);
+            this.eat_In1.TabIndex = 1;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
+            this.panel1.Controls.Add(this.separatorControl1);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.SidePanel);
+            this.panel1.Controls.Add(this.customers);
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.driverpayment);
+            this.panel1.Controls.Add(this.takeaway);
+            this.panel1.Controls.Add(this.Delivery);
+            this.panel1.Controls.Add(this.collections);
+            this.panel1.Controls.Add(this.button14);
+            this.panel1.Controls.Add(this.pizza);
+            this.panel1.Controls.Add(this.Home);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(287, 718);
+            this.panel1.TabIndex = 5;
+            // 
+            // separatorControl1
+            // 
+            this.separatorControl1.Location = new System.Drawing.Point(0, 145);
+            this.separatorControl1.Margin = new System.Windows.Forms.Padding(4);
+            this.separatorControl1.Name = "separatorControl1";
+            this.separatorControl1.Padding = new System.Windows.Forms.Padding(12, 11, 12, 11);
+            this.separatorControl1.Size = new System.Drawing.Size(279, 22);
+            this.separatorControl1.TabIndex = 16;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(84, 122);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(93, 20);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Restourents";
+            // 
+            // SidePanel
+            // 
+            this.SidePanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
+            this.SidePanel.Location = new System.Drawing.Point(1, 169);
+            this.SidePanel.Margin = new System.Windows.Forms.Padding(4);
+            this.SidePanel.Name = "SidePanel";
+            this.SidePanel.Size = new System.Drawing.Size(13, 66);
+            this.SidePanel.TabIndex = 4;
+            // 
             // customers
             // 
             this.customers.FlatAppearance.BorderSize = 0;
@@ -321,7 +372,7 @@
             this.customers.ForeColor = System.Drawing.Color.White;
             this.customers.Image = ((System.Drawing.Image)(resources.GetObject("customers.Image")));
             this.customers.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.customers.Location = new System.Drawing.Point(16, 565);
+            this.customers.Location = new System.Drawing.Point(12, 576);
             this.customers.Margin = new System.Windows.Forms.Padding(4);
             this.customers.Name = "customers";
             this.customers.Size = new System.Drawing.Size(263, 66);
@@ -334,13 +385,27 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(73, 9);
+            this.pictureBox1.Location = new System.Drawing.Point(81, 23);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(117, 86);
+            this.pictureBox1.Size = new System.Drawing.Size(96, 71);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(77, 98);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(115, 23);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Lords pizza";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // driverpayment
             // 
@@ -350,12 +415,12 @@
             this.driverpayment.ForeColor = System.Drawing.Color.White;
             this.driverpayment.Image = ((System.Drawing.Image)(resources.GetObject("driverpayment.Image")));
             this.driverpayment.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.driverpayment.Location = new System.Drawing.Point(16, 498);
+            this.driverpayment.Location = new System.Drawing.Point(4, 513);
             this.driverpayment.Margin = new System.Windows.Forms.Padding(4);
             this.driverpayment.Name = "driverpayment";
             this.driverpayment.Size = new System.Drawing.Size(263, 66);
             this.driverpayment.TabIndex = 4;
-            this.driverpayment.Text = "       Driver Payment";
+            this.driverpayment.Text = "       Payment";
             this.driverpayment.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.driverpayment.UseVisualStyleBackColor = true;
             this.driverpayment.Click += new System.EventHandler(this.driverpayment_Click);
@@ -366,14 +431,14 @@
             this.takeaway.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.takeaway.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.takeaway.ForeColor = System.Drawing.Color.White;
-            this.takeaway.Image = ((System.Drawing.Image)(resources.GetObject("takeaway.Image")));
+            this.takeaway.Image = global::FastFood.Properties.Resources.icons8_cocktail_48px;
             this.takeaway.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.takeaway.Location = new System.Drawing.Point(16, 432);
+            this.takeaway.Location = new System.Drawing.Point(16, 375);
             this.takeaway.Margin = new System.Windows.Forms.Padding(4);
             this.takeaway.Name = "takeaway";
             this.takeaway.Size = new System.Drawing.Size(263, 66);
             this.takeaway.TabIndex = 4;
-            this.takeaway.Text = "       Take Away";
+            this.takeaway.Text = "       Drinks";
             this.takeaway.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.takeaway.UseVisualStyleBackColor = true;
             this.takeaway.Click += new System.EventHandler(this.takeaway_Click);
@@ -384,14 +449,14 @@
             this.Delivery.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Delivery.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Delivery.ForeColor = System.Drawing.Color.White;
-            this.Delivery.Image = ((System.Drawing.Image)(resources.GetObject("Delivery.Image")));
+            this.Delivery.Image = global::FastFood.Properties.Resources.icons8_poultry_leg_48px;
             this.Delivery.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Delivery.Location = new System.Drawing.Point(16, 366);
+            this.Delivery.Location = new System.Drawing.Point(12, 439);
             this.Delivery.Margin = new System.Windows.Forms.Padding(4);
             this.Delivery.Name = "Delivery";
             this.Delivery.Size = new System.Drawing.Size(263, 66);
             this.Delivery.TabIndex = 4;
-            this.Delivery.Text = "       Delivery";
+            this.Delivery.Text = "       Appetizers";
             this.Delivery.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.Delivery.UseVisualStyleBackColor = true;
             this.Delivery.Click += new System.EventHandler(this.Delivery_Click);
@@ -402,17 +467,33 @@
             this.collections.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.collections.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.collections.ForeColor = System.Drawing.Color.White;
-            this.collections.Image = ((System.Drawing.Image)(resources.GetObject("collections.Image")));
+            this.collections.Image = global::FastFood.Properties.Resources.icons8_confectionery_40px;
             this.collections.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.collections.Location = new System.Drawing.Point(16, 299);
+            this.collections.Location = new System.Drawing.Point(16, 301);
             this.collections.Margin = new System.Windows.Forms.Padding(4);
             this.collections.Name = "collections";
             this.collections.Size = new System.Drawing.Size(263, 66);
             this.collections.TabIndex = 4;
-            this.collections.Text = "       Collection";
+            this.collections.Text = "       Dessert";
             this.collections.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.collections.UseVisualStyleBackColor = true;
             this.collections.Click += new System.EventHandler(this.collections_Click);
+            // 
+            // button14
+            // 
+            this.button14.FlatAppearance.BorderSize = 0;
+            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button14.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button14.ForeColor = System.Drawing.Color.White;
+            this.button14.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button14.Location = new System.Drawing.Point(4, 672);
+            this.button14.Margin = new System.Windows.Forms.Padding(4);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(48, 42);
+            this.button14.TabIndex = 4;
+            this.button14.Text = "?";
+            this.button14.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button14.UseVisualStyleBackColor = true;
             // 
             // pizza
             // 
@@ -420,9 +501,9 @@
             this.pizza.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.pizza.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pizza.ForeColor = System.Drawing.Color.White;
-            this.pizza.Image = ((System.Drawing.Image)(resources.GetObject("pizza.Image")));
+            this.pizza.Image = global::FastFood.Properties.Resources.icons8_pizza_48px_2;
             this.pizza.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.pizza.Location = new System.Drawing.Point(16, 233);
+            this.pizza.Location = new System.Drawing.Point(16, 243);
             this.pizza.Margin = new System.Windows.Forms.Padding(4);
             this.pizza.Name = "pizza";
             this.pizza.Size = new System.Drawing.Size(263, 66);
@@ -450,70 +531,6 @@
             this.Home.UseVisualStyleBackColor = true;
             this.Home.Click += new System.EventHandler(this.Home_Click);
             // 
-            // p
-            // 
-            this.p.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.p.Location = new System.Drawing.Point(0, 0);
-            this.p.Margin = new System.Windows.Forms.Padding(5);
-            this.p.Name = "p";
-            this.p.Size = new System.Drawing.Size(1089, 644);
-            this.p.TabIndex = 0;
-            this.p.Load += new System.EventHandler(this.home1_Load);
-            // 
-            // customers1
-            // 
-            this.customers1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.customers1.Location = new System.Drawing.Point(0, 0);
-            this.customers1.Margin = new System.Windows.Forms.Padding(5);
-            this.customers1.Name = "customers1";
-            this.customers1.Size = new System.Drawing.Size(1089, 644);
-            this.customers1.TabIndex = 6;
-            // 
-            // driver_Payment1
-            // 
-            this.driver_Payment1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.driver_Payment1.Location = new System.Drawing.Point(0, 0);
-            this.driver_Payment1.Margin = new System.Windows.Forms.Padding(5);
-            this.driver_Payment1.Name = "driver_Payment1";
-            this.driver_Payment1.Size = new System.Drawing.Size(1089, 644);
-            this.driver_Payment1.TabIndex = 5;
-            // 
-            // take_Away1
-            // 
-            this.take_Away1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.take_Away1.Location = new System.Drawing.Point(0, 0);
-            this.take_Away1.Margin = new System.Windows.Forms.Padding(5);
-            this.take_Away1.Name = "take_Away1";
-            this.take_Away1.Size = new System.Drawing.Size(1089, 644);
-            this.take_Away1.TabIndex = 4;
-            // 
-            // delivery1
-            // 
-            this.delivery1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.delivery1.Location = new System.Drawing.Point(0, 0);
-            this.delivery1.Margin = new System.Windows.Forms.Padding(5);
-            this.delivery1.Name = "delivery1";
-            this.delivery1.Size = new System.Drawing.Size(1089, 644);
-            this.delivery1.TabIndex = 3;
-            // 
-            // collections1
-            // 
-            this.collections1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.collections1.Location = new System.Drawing.Point(0, 0);
-            this.collections1.Margin = new System.Windows.Forms.Padding(5);
-            this.collections1.Name = "collections1";
-            this.collections1.Size = new System.Drawing.Size(1089, 644);
-            this.collections1.TabIndex = 2;
-            // 
-            // eat_In1
-            // 
-            this.eat_In1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.eat_In1.Location = new System.Drawing.Point(0, 0);
-            this.eat_In1.Margin = new System.Windows.Forms.Padding(5);
-            this.eat_In1.Name = "eat_In1";
-            this.eat_In1.Size = new System.Drawing.Size(1089, 644);
-            this.eat_In1.TabIndex = 1;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -524,17 +541,17 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.separatorControl1)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.separatorControl2)).EndInit();
             this.panel3.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.separatorControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -554,7 +571,6 @@
         private System.Windows.Forms.Button customers;
         private System.Windows.Forms.Button driverpayment;
         private System.Windows.Forms.Button takeaway;
-        private System.Windows.Forms.Button Delivery;
         private System.Windows.Forms.Button collections;
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.Button pizza;
@@ -567,12 +583,13 @@
         private System.Windows.Forms.Panel panel3;
         private Home p;
         private Customers customers1;
-        private Driver_Payment driver_Payment1;
-        private Take_Away take_Away1;
-        private Delivery delivery1;
-        private Collections collections1;
-        private Eat_In eat_In1;
+        private payment driver_Payment1;
+        private drinks take_Away1;
+        private appetizers delivery1;
+        private dessert collections1;
+        private pizza eat_In1;
         private DevExpress.XtraEditors.SeparatorControl separatorControl2;
+        private System.Windows.Forms.Button Delivery;
     }
 }
 

@@ -24,12 +24,13 @@ namespace FastFood
         {
             Application.Exit();
         }
-
+        
         private void Home_Click(object sender, EventArgs e)
         {
             SidePanel.Height = Home.Height;
             SidePanel.Top = Home.Top;
             p.BringToFront();
+            
         }
 
         private void Eatin_Click(object sender, EventArgs e)
@@ -60,11 +61,12 @@ namespace FastFood
             take_Away1.BringToFront();
         }
 
-        private void driverpayment_Click(object sender, EventArgs e)
+        private void driverpayment_Click(object sender, EventArgs e )
         {
             SidePanel.Height = driverpayment.Height;
             SidePanel.Top = driverpayment.Top;
             driver_Payment1.BringToFront();
+            
         }
 
         private void customers_Click(object sender, EventArgs e)
@@ -76,7 +78,8 @@ namespace FastFood
 
         private void home1_Load(object sender, EventArgs e)
         {
-
+           
+                
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -88,8 +91,20 @@ namespace FastFood
         {
 
         }
-        //Thanks For Watching//
-        //Like and Subscribe//
-        //Muhammad Shafique//
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
